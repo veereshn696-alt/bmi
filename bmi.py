@@ -6,6 +6,6 @@ if len(sys.argv)!=3:
 else :
     script_name=sys.argv[0]
     weight=float(sys.argv[1])
-    height=(sys.argv[2])
+    height=float(sys.argv[2])
 bmi = weight / (height * height)
 print("BMI is ",bmi)
